@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Instant Google Meet",
+    "version": "1.0",
+    "description": "Instant Google Meet lets you create Google Meet links in one click, copy them instantly, and start meetings right from your browser.",
+    "icons": {
+      "19": "icons/icon19.png",
+      "38": "icons/icon38.png",
+      "64": "icons/icon64.png",
+      "128": "icons/icon128.png"
+    },
+    "action": {
+      "default_popup": "html/index.html",
+      "default_icon": {
+        "19": "icons/icon19.png",
+        "38": "icons/icon38.png"
+      }
+    },
+    "options_page": "html/options.html",
+    "web_accessible_resources": [
+      {
+        "resources": ["icons/*"],
+        "matches": ["*://*/*"]
+      }
+    ]
+  }
+  
